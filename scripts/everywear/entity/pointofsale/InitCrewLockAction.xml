@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navascript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.navajo.nl/schemas/navascript.xsd">
+	<methods>
+		<method name="everywear/entity/pointofsale/ProcessUnlock" />
+		<method name="everywear/entity/pointofsale/ProcessLock" />
+	</methods>
+	<message name="Crew">
+		<property name="RFID" type="string" direction="in" />
+	</message>
+	<message name="CrewLog">
+		<property name="DeviceId" type="string" direction="in" />		
+	</message>
+</navascript>

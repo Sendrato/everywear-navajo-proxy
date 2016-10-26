@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navascript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.navajo.nl/schemas/navascript.xsd">
+	<methods>
+		<method name="everywear/entity/pointofsale/ProcessApplyFeature" />
+	</methods>
+	<message name="Input">
+		<property name="Feature" type="string" direction="in" />
+		<property name="FromRFID" type="string" direction="in" />
+		<property name="ToPOSId" type="string" direction="in" />
+		<property name="To" type="string" direction="in" />
+		<property name="LogDate" type="date" direction="out">
+			<expression value="TODAY" />
+		</property>
+	</message>
+</navascript>

@@ -1,0 +1,15 @@
+everywear/entity/PointOfSale
+everywear/entity/eticket/ProcessSearchETicket
+everywear/entity/pointofsale/InitApplyFeature
+everywear/entity/pointofsale/InitCrewLockAction
+everywear/entity/pointofsale/ProcessApplyFeature
+everywear/entity/pointofsale/ProcessCreatePointOfSale
+everywear/entity/pointofsale/ProcessInsertInitialPurchase
+everywear/entity/pointofsale/ProcessInsertRefundPurchase
+everywear/entity/pointofsale/ProcessLock
+everywear/entity/pointofsale/ProcessSetPurchaseFailed
+everywear/entity/pointofsale/ProcessUnlock
+everywear/entity/pointofsale/ProcessVerifyPurchase
+everywear/entity/transaction/ProcessQueryTransaction
+everywear/entity/transaction/ProcessUpdateTransaction
+everywear/entity/visitor/ProcessQueryVisitor

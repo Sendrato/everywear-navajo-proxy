@@ -1,0 +1,23 @@
+<navascript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.navajo.nl/schemas/navascript.xsd">
+	<message name="__Mongo__">
+		<property name="Datasource" type="string" value="everywear" />
+		<property name="Collection" type="string" value="PointOfSale" />
+		<property name="MessageName" type="string" value="PointOfSale" />
+		<property name="Multiple" type="boolean" value="false" />
+		<property name="EntityService" type="string" value="everywear/entity/PointOfSale" />
+	</message>
+	<message name="PointOfSale">
+		<property name="DeviceId" type="string" direction="in" />
+		<property name="TemplateName" type="string" direction="in" />
+		<property name="TemplateId" type="string" direction="in" />
+		<property name="Created" type="date">
+			<expression value="TODAY" />
+		</property>
+		<message name="Location">
+			<property name="Lat" type="float" direction="in" />
+			<property name="Lon" type="float" direction="in" />
+		</message>
+		
+	</message>
+</navascript>
