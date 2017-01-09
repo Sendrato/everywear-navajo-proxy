@@ -1,0 +1,12 @@
+<navascript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.navajo.nl/schemas/navascript.xsd">
+	<methods>
+		<method name="everywear/entity/visitor/ProcessQueryVisitor" />
+	</methods>
+	<message name="Visitor">
+		<property name="WristbandId" type="integer" direction="in" />
+		<property name="Email" type="string" direction="in" />
+		<property name="RFID" type="string" direction="in" />
+		<property name="eTicketId" type="string" direction="in" />
+		<property name="SecurityCode" type="string" direction="in" />
+	</message>
+</navascript>
